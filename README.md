@@ -111,7 +111,7 @@ To test the navigation functionality, follow these steps:
 
 ```
 $ source devel/setup.bash
-$ chmod u+x chmod u+x ./src/my_robot/shell/navigation_test.sh 
+$ chmod u+x ./src/my_robot/shell/navigation_test.sh 
 $ ./src/my_robot/shell/navigation_test.sh 
 ```
 Once the script is running, send a `2D Nav Goal` in rviz to verify the navigation performance.
