@@ -66,8 +66,7 @@ The mobile robot begins by driving around and scanning the area using a lidar to
 1. ROS (noetic), Gazebo on Linux
 2. CMake & g++/gcc, C++11
 3. Install xterm `sudo apt-get install xterm`
-4. Python with pip `sudo apt-get install python-pip`
-5. Install some dependencies
+4. Install some dependencies
 
 ```
 $ sudo apt-get update && sudo apt-get upgrade -y
@@ -79,17 +78,14 @@ $ sudo apt-get install ros-noetic-slam-gmapping
 
 ## Build and Launch
 
-1. Clone the project and initialize a catkin workspace
+1. Clone the project 
 ```
-$ mkdir catkin_ws && cd catkin_ws
 $ git clone https://github.com/Ahmed-Magdi1/Home-Service-Robot.git
-$ mv Home-Service-Robot src
-$ cd src && catkin_init_workspace
+$ cd Home-Service-Robot
 ```
 
-2. Navigate back to the `catkin_ws`folder and build the project
+2. Build the project
 ```
-$ cd ..
 $ catkin_make
 ```
 
@@ -119,7 +115,7 @@ To test the navigation functionality, follow these steps:
 
 ```
 $ source devel/setup.bash
-$ chmod u+x chmod u+x ./src/my_robot/shell/navigation_test.sh 
+$ chmod u+x ./src/my_robot/shell/navigation_test.sh 
 $ ./src/my_robot/shell/navigation_test.sh 
 ```
 Once the script is running, send a `2D Nav Goal` in rviz to verify the navigation performance.
