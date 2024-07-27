@@ -31,12 +31,16 @@
             │    ├── gmapping.rviz
             │    ├── Home_Service_Robot.rviz
             │    └── navigation.rviz
-            ├── shell/
-            │    ├── gmapping_test.sh
+            ├── scripts/
+            │    ├── add_markers.sh
             │    ├── Home_Service_Robot.sh
-            │    └── navigation_test.sh
+            │    ├── pick_objects.sh
+            │    ├── test_navigation.sh
+            │    └── test_slam.sh
             ├── src/
+            │    ├── add_markers_alone.cpp
             │    ├── object_marker.cpp
+            │    ├── pick_objects_alone.cpp
             │    └── pick_objects.cpp
             ├── urdf/
             │    ├── colors.xacro

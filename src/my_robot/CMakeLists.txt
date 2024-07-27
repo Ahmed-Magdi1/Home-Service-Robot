@@ -28,3 +28,9 @@ target_link_libraries(pick_objects ${catkin_LIBRARIES})
 
 add_executable(object_marker src/object_marker.cpp)
 target_link_libraries(object_marker ${catkin_LIBRARIES})
+
+add_executable(add_markers_alone src/add_markers_alone.cpp)
+target_link_libraries(add_markers_alone ${catkin_LIBRARIES})
+
+add_executable(pick_objects_alone src/pick_objects_alone.cpp)
+target_link_libraries(pick_objects_alone ${catkin_LIBRARIES})
