@@ -79,12 +79,10 @@ $ sudo apt-get install ros-noetic-slam-gmapping
 $ mkdir catkin_ws && cd catkin_ws
 $ git clone https://github.com/Ahmed-Magdi1/Home-Service-Robot.git
 $ mv Home-Service-Robot src
-$ cd src && catkin_init_workspace
 ```
 
 2. Navigate back to the `catkin_ws`folder and build the project
 ```
-$ cd ..
 $ catkin_make
 ```
 
