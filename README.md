@@ -62,8 +62,7 @@ The mobile robot begins by driving around and scanning the area using a lidar to
 1. ROS (noetic), Gazebo on Linux
 2. CMake & g++/gcc, C++11
 3. Install xterm `sudo apt-get install xterm`
-4. Python with pip `sudo apt-get install python-pip`
-5. Install some dependencies
+4. Install some dependencies
 
 ```
 $ sudo apt-get update && sudo apt-get upgrade -y
