@@ -77,6 +77,7 @@ $ sudo apt-get install ros-noetic-slam-gmapping
 1. Clone the project 
 ```
 $ git clone https://github.com/Ahmed-Magdi1/Home-Service-Robot.git
+$ cd Home-Service-Robot
 ```
 
 2. Build the project
