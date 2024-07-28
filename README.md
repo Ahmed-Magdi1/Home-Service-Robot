@@ -3,8 +3,7 @@
 
     .myrobot_ws/ 
         └── src/
-            ├── teleop_twist_keyboard/
-            └── my_robot/
+             └── my_robot/
                     ├── config/
                     │     ├── robot.rviz
                     │     ├── base_local_planner_params.yaml
