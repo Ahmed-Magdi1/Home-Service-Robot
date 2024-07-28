@@ -111,7 +111,7 @@ $ chmod u+x ./src/my_robot/scripts/Home_Service_Robot.sh
 $ ./src/my_robot/scripts/Home_Service_Robot.sh 
 ```
 
-### Note: To regenerate new map, close all ROS terminals and run the gmapping_test.sh script again. When you are done, with all terminals open  execute
+### Note: To regenerate new map, close all ROS terminals and run the test_slam.sh script again. When you are done, with all terminals open  execute
 
 ```rosrun map_server map_saver -f <map_name>```
 ## Then, replace:
@@ -130,8 +130,8 @@ To test the navigation functionality, follow these steps:
 
 ```
 $ source devel/setup.bash
-$ chmod u+x ./src/my_robot/scripts/navigation_test.sh 
-$ ./src/my_robot/scripts/navigation_test.sh 
+$ chmod u+x ./src/my_robot/scripts/test_navigation.sh
+$ ./src/my_robot/scripts/test_navigation.sh 
 ```
 Once the script is running, send a `2D Nav Goal` in rviz to verify the navigation performance.
 
